@@ -21,3 +21,11 @@ graph = list(map(int,input().strip()))
 graph = [list(map(int, input().split())) for _ in range(N)]
 </code>
 </pre>
+
+### 0-1 BFS
+#### 0과 1로 이루어지고 가중치 있는 그래프 최단 경로 찾기
+#### 가중치를 담을 배열 선언 
+
+### 그리디
+#### 
+#### 배수로 되어 있으면 반례 없음
