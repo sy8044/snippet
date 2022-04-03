@@ -29,3 +29,41 @@ graph = [list(map(int, input().split())) for _ in range(N)]
 ### 그리디
 #### 
 #### 배수로 되어 있으면 반례 없음
+
+### 소수 찾는 방법들
+#### 숫자 모두 체크해서 찾기 - 매우 느림
+<pre>
+<code>
+def isPrime(n) :
+    flag = True
+    for i in range(2,n) :
+        if n % i == 0 :
+            return False
+    return flag
+</code>
+</pre>
+
+#### 숫자 모두 체크해서 찾기 - 매우 느림
+<pre>
+<code>
+def isPrime(n) :
+    flag = True
+    for i in range(2,n) :
+        if n % i == 0 :
+            return False
+    return flag
+</code>
+</pre>
+
+#### 약수는 대칭을 이루기 때문에 제곱근까지만 체크해서 찾기
+<pre>
+<code>
+def isPrime(n) :
+    flag = True
+    for i in range(2,int(math.sqrt(n)) + 1) :
+        if n % i == 0 :
+            return False
+    return flag
+</code>
+</pre>
+
