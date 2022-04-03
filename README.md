@@ -43,18 +43,6 @@ def isPrime(n) :
 </code>
 </pre>
 
-#### 숫자 모두 체크해서 찾기 - 매우 느림
-<pre>
-<code>
-def isPrime(n) :
-    flag = True
-    for i in range(2,n) :
-        if n % i == 0 :
-            return False
-    return flag
-</code>
-</pre>
-
 #### 약수는 대칭을 이루기 때문에 제곱근까지만 체크해서 찾기
 <pre>
 <code>
