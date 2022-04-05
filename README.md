@@ -56,3 +56,19 @@ def isPrime(n) :
 </code>
 </pre>
 
+### heap
+#### heapq모듈 기본은 최소 heap
+#### .heapify()
+#### 최대 heap
+```
+import heapq
+
+nums = [4, 1, 7, 3, 8, 5]
+heap = []
+
+for num in nums:
+  heapq.heappush(heap, (-num, num))  # (우선 순위, 값)
+
+while heap:
+  print(heapq.heappop(heap)[1])  # index 1
+```
