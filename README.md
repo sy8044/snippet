@@ -72,3 +72,20 @@ for num in nums:
 while heap:
   print(heapq.heappop(heap)[1])  # index 1
 ```
+### sorted() , .sort()
+#### sorted()
+#### return type list
+```
+a = [2,5,1,9,7]
+sorted(a)
+```
+#### .sort()
+#### return none
+```
+alist.sort() # 리스트 자체 정렬
+blist = blist.sort() # 잘못됨
+```
+#### .sort() key 여러개 처리
+```
+sort(key = lambda x : ( a , b))
+```
