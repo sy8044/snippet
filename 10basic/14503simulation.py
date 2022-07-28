@@ -50,7 +50,7 @@ while True :
             if graph[nr][nc] == 1 :
                 break
             else :
-            # 방향 유지하여 한칸 후진 후 2번으로 돌아감감
+            # 방향 유지하여 한칸 후진 후 2번으로 돌아감
                 r = nr
                 c = nc
         else :
