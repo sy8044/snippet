@@ -89,3 +89,8 @@ blist = blist.sort() # 잘못됨
 ```
 sort(key = lambda x : ( a , b))
 ```
+
+#### 리스트 한번에 출력
+```
+print(*list)
+```
