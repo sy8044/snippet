@@ -16,6 +16,7 @@ for _ in range(e) :
 
 cost = 0
 heap = [[0,1]]
+# weight , vertex
 
 while heap :
     weight, vertex = heapq.heappop(heap)
